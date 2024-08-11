@@ -1,5 +1,6 @@
 .wrapper {
   margin: 3vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
 }
