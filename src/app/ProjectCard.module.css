@@ -4,7 +4,8 @@
     background-color: rgb(238, 238, 238);
     padding: 1rem;
     max-width: 25vw;
-    margin-top: 1rem;
+    margin: 1rem;
+    margin-left: 0;
 }
 
 .title {
