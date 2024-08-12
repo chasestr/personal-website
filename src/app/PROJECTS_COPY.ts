@@ -9,5 +9,5 @@ export const PORTFOLIO_COPY = {
     title: "Portfolio",
     github: "https://github.com/chasestr/personal-website",
     technologies: ["Typescript", "React", "NextJS"],
-    description: "Portfolio website (the one you're on right now"
+    description: "Portfolio website (the one you're on right now)"
 }
