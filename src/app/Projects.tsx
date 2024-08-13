@@ -3,7 +3,7 @@ import styles from "./Projects.module.css";
 import ProjectCard from "./ProjectCard";
 import { PORTFOLIO_COPY, STORYSTASH_COPY } from "./PROJECTS_COPY";
 
-export default function Projects() {
+const Projects = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>Projects</div>
@@ -14,3 +14,5 @@ export default function Projects() {
     </div>
   );
 }
+
+export default Projects;

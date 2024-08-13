@@ -8,7 +8,7 @@ interface ProjectCardProps {
     technologies: string[];
 }
 
-export default function ProjectCard(props: ProjectCardProps) {
+const ProjectCard = (props: ProjectCardProps) => {
     return (
         <div className={styles.container}>
             <a className={styles.title} href={props.github} target="blank">
@@ -21,3 +21,5 @@ export default function ProjectCard(props: ProjectCardProps) {
         </div>
     );
 }
+
+export default ProjectCard;

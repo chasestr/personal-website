@@ -5,8 +5,7 @@ import styles from './Introduction.module.css';
 import * as COPY from './INTRODUCTION_COPY';
 import Image from 'next/image';
 
-
-export default function Introduction() {
+const Introduction = () => {
     useEffect(() => {
         const nameElement = document.getElementById('name');
         if (nameElement) {
@@ -37,7 +36,7 @@ export default function Introduction() {
     );
 }
 
-function getRandomColor() {
+const getRandomColor = () => {
     const letters = '0123456789ABCDEF';
     let color = '#';
     for (let i = 0; i < 6; i++) {
@@ -45,3 +44,5 @@ function getRandomColor() {
     }
     return color;
 }
+
+export default Introduction;

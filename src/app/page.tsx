@@ -2,7 +2,7 @@ import Introduction from "./Introduction";
 import styles from "./page.module.css";
 import Projects from "./Projects";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={styles.wrapper}>
       <Introduction/>
@@ -10,3 +10,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
