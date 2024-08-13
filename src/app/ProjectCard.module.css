@@ -23,10 +23,22 @@
     font-size: 0.5rem;
     padding: 0.5rem;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 
 .technology {
     display: flex;
     flex-wrap: wrap;
     margin: 0.25rem;
+    margin-left: 0;
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.github_logo {
+    margin-left: auto;
 }
