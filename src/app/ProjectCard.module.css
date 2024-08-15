@@ -12,6 +12,7 @@
     font-weight: bold;
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 }
 
 .description {
@@ -45,4 +46,11 @@
 
 .github_logo {
     margin-left: auto;
+}
+
+/* sm breakpoint */
+@media (max-width: 600px) {
+    .title {
+        font-size: 0.75rem;
+    }
 }
