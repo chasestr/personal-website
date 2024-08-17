@@ -1,6 +1,6 @@
 export const firstParagraph = `
     I am a software developer from Colorado. I have a passion for all things technology-related, and
-    have prior experience primarily with web development using Typescript, React, GraphQL, and PostgreSQL.
+    have prior experience primarily with web development using TypeScript, React, GraphQL, and PostgreSQL.
 `;
 
 export const secondParagraph = `
