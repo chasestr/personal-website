@@ -6,11 +6,11 @@ import Projects from "./Projects";
 const Home = () => {
   return (
     <div className={styles.wrapper}>
-      <Introduction/>
-      <Projects/>
-      <Contact/>
+      <Introduction />
+      <Projects />
+      <Contact />
     </div>
   );
-}
+};
 
 export default Home;

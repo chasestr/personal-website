@@ -5,7 +5,7 @@ export const firstParagraph = `
 
 export const secondParagraph = `
     Some of the projects I have worked on previously include:
-`
+`;
 
 export const firstListItem = `Responsive data visualizations using d3 and nivo`;
 export const secondListItem = `Product demos with temporary user accounts populated with test data`;

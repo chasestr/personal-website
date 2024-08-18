@@ -7,7 +7,7 @@ interface GithubLogoProps {
 }
 
 const GithubLogo = (props: GithubLogoProps) => {
-    const githubLink = "https://github.com/chasestr";
+  const githubLink = "https://github.com/chasestr";
   if (props.href) {
     return (
       <a href={githubLink} target="_blank">
