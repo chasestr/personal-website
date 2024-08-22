@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(238, 238, 238);
-  padding: 1rem;
+  padding: 3rem;
   max-width: 25vw;
-  margin: 1rem;
+  margin: 3rem;
   margin-left: 0;
 }
 
@@ -12,17 +12,17 @@
   font-weight: bold;
   text-decoration: none;
   color: black;
-  font-size: 1rem;
+  font-size: 3rem;
 }
 
 .description {
-  font-size: 0.5rem;
+  font-size: 2rem;
 }
 
 .technologies {
   display: flex;
-  font-size: 0.5rem;
-  padding: 0.5rem;
+  font-size: 2rem;
+  padding: 2rem;
   flex-wrap: wrap;
   padding-left: 0;
 }
@@ -30,10 +30,10 @@
 .technology {
   display: flex;
   flex-wrap: wrap;
-  margin: 0.25rem;
+  margin: 0.5rem;
   margin-left: 0;
   border: 1px solid black;
-  padding: 0.25rem;
+  padding: 0.75rem;
   background-color: lightgray;
   color: black;
 }
@@ -41,22 +41,73 @@
 .title_container {
   display: flex;
   align-items: center;
-  margin-bottom: 0.75rem;
+  margin-bottom: 2rem;
 }
 
-.github_logo {
+.github_logo_container {
   margin-left: auto;
 }
 
+.github_logo {
+  width: 80px;
+  height: 80px;
+}
+
+/* m breakpoint */
+@media (max-width: 1750px) {
+  .container {
+    padding: 2rem;
+    margin: 2rem;
+    margin-left: 0;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .technologies {
+    font-size: 1rem;
+    padding: 1rem;
+    padding-left: 0;
+  }
+
+  .technology {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    margin-left: 0;
+  }
+
+  .title_container {
+    margin-bottom: 1rem;
+  }
+
+  .github_logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
 /* sm breakpoint */
-@media (max-width: 600px) {
+@media (max-width: 1400px) {
   .container {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
+}
 
+/* xs breakpoint */
+@media (max-width: 1200px) {
   .title {
-    font-size: 0.75rem;
+    font-size: 1.5rem;
+  }
+
+  .github_logo {
+    width: 40px;
+    height: 40px;
   }
 }

@@ -1,16 +1,17 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
-.infoContainer {
+.info_container {
   display: flex;
   align-items: center;
+  font-size: 2rem;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 6rem;
   font-weight: bold;
 }
 
@@ -20,4 +21,57 @@
 
 .github {
   margin-left: auto;
+}
+
+.github_logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* m breakpoint */
+@media (max-width: 1200px) {
+  .info_container {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .github_logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* sm breakpoint */
+@media (max-width: 750px) {
+  .info_container {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .github_logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* xs breakpoint */
+@media (max-width: 600px) {
+  .info_container {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .github_logo {
+    width: 40px;
+    height: 40px;
+  }
 }
