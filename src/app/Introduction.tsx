@@ -39,6 +39,7 @@ const Introduction = () => {
           <li className={styles.listItem}>{COPY.firstListItem}</li>
           <li className={styles.listItem}>{COPY.secondListItem}</li>
           <li className={styles.listItem}>{COPY.thirdListItem}</li>
+          <li className={styles.listItem}>{COPY.fourthListItem}</li>
         </ul>
       </div>
       <Image
