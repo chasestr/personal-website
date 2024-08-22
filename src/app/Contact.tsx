@@ -4,6 +4,7 @@ import styles from "./Contact.module.css";
 
 const Contact = () => {
   const email = "brendanstrayer@gmail.com";
+  const linkedIn = "https://www.linkedin.com/in/brendan-strayer/";
 
   return (
     <div className={styles.container}>
@@ -12,6 +13,9 @@ const Contact = () => {
         <div>
           <a href={`mailto:${email}`} className={styles.email}>
             {email}
+          </a>
+          <a href={linkedIn} className={styles.linkedIn}>
+            LinkedIn
           </a>
           <div>Dacono, CO</div>
         </div>
