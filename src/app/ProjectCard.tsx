@@ -14,9 +14,9 @@ const ProjectCard = (props: ProjectCardProps) => {
     <div className={styles.container}>
       <div className={styles.title_container}>
         <div className={styles.title}>{props.title}</div>
-        <div className={styles.github_logo}>
+        <div className={styles.github_logo_container}>
           <a href={props.github} target="_blank">
-            <GithubLogo />
+            <GithubLogo className={styles.github_logo}/>
           </a>
         </div>
       </div>

@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>Let's get in touch!</div>
-      <div className={styles.infoContainer}>
+      <div className={styles.info_container}>
         <div>
           <a href={`mailto:${email}`} className={styles.email}>
             {email}
@@ -16,7 +16,7 @@ const Contact = () => {
           <div>Dacono, CO</div>
         </div>
         <div className={styles.github}>
-          <GithubLogo width={50} height={50} href />
+          <GithubLogo className={styles.github_logo} href />
         </div>
       </div>
     </div>
